@@ -1,13 +1,48 @@
-.anchor {
-    margin-top: -40px;
+
+.content {
     padding-top: 40px;
 }
-#header {
-    background-color: rgb(200,200,200);
+  
+.navbar {
+    font-family: "antique-olive", sans-serif;
+    font-size: 2em;
+    padding: 10px;
 }
+.navbar-brand {
+    font-family: "brim-narrow";
+    font-weight: 400;
+    font-size: 1em;
+}
+
+#header {
+    font-family:"brim-narrow", serif;
+    font-weight: 400;
+    background-color: rgb(200,200,200);
+    padding: 200px;
+}
+                      
+#header-title {
+    font-family: "brim-narrow", sans-serif;
+    font-weight: 200;
+}
+#header-s {
+    font-size: 0.8em;
+}
+                            
+h2 {
+    font-family: "brim-narrow", sans-serif  !important;
+    font-weight: 400    !important;
+}
+                                
 #about {
     background-color: rgb(100,100,100);
 }
-.content {
-    padding-top: 40px;
+                                  
+#portfolio {
+    display: flex;
+}
+                                    
+.social {
+    color: gray;
+    font-size: 50px;
 }

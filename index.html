@@ -1,71 +1,108 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#header">piouaille</a>
-        </div><!-- fin div navbar-header -->
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">about</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </div><!-- fin div collapse navbar-collapse -->
-    </div><!-- fin div container -->
-</nav> 
-<div class="container-fluid content" id="header">
-    <div class="row">
-        <div class="col-md-12">
-            <h1 class="text-center">a portfolio page for <em>piouaille</em></h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>portfolio freeCodeCamp - piouaille</title>
+        <meta name="author" content="py">
+        <meta name="description" content="part of the freeCodeCamp program.">
+        <!-- favicon.ico 16x16px must be placed in the same directory as index.html ->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <!- the code for all sorts of modern icons, to save in an img or icon folder ->
+        <!- third-generation iPad with high-resolution Retina display: ->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="hard link to the favicon144.png image">
+        <!- iPhone with high-resolution Retina display: ->
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="hard link to the favicon114.png image">
+        <!- first- and second-generation iPad: ->
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="hard link to the favicon72.png">
+        <!- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: ->
+        <link rel="apple-touch-icon-precomposed" href="hard link to the favicon57.png image">
+        <!- basic favicon ->
+        <link rel="shortcut icon" href="hard link to the favicon32.png image">
+        <!- css file -->
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!-- script file, notice the closing tag -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://use.typekit.net/gqe3sxo.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <script src="my-js-file.js"></script>
+        <!-- primary language of the document -->
+        <html lang="en-US">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#header">piouaille<span id="header-s">'s<span></a>
+                </div><!-- fin div navbar-header -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div><!-- fin div container -->
+        </nav> 
+        <div class="jumbotron content" id="header">
+            <h1 class="text-center" id="header-title">a portfolio page for <em>piouaille</em></h1>
             <h3 class="text-center">a 'challenge' project part of the freeCodeCamp.org program.</h3>
-        </div>
-    </div><!-- fin div row -->
-</div><!-- fin div container-fluid -->
-<div class="container content" id="about">
-    <h2>about</h2>
-    <p>elements to include :
-        <ol>
-            <li>I can access all of the portfolio webpage's content just by scrolling.</li>
-            <li>I can click different buttons that will take me to the portfolio creator's different social media pages.</li>
-            <li>I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use placeholders.)</li>
-            <li>I navigate to different sections of the webpage by clicking buttons in the navigation.</li>
-        </ol>
-    </p>
-</div><!-- fin div about -->
-<div class="container content" id="portfolio">
-    <h2>portfolio</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <img src="http://emg.ovh/codepenImg/Brunetti-1.jpg" class="img-responsive" alt="Conques, Sainte Foy - ©Markus Brunetti">
-        </div><!-- fin div col-md-6 -->
-        <div class="col-md-6">
-            <img src="http://emg.ovh/codepenImg/Brunetti-2.jpg" class="img-responsive" alt="Reims, Notre Dame - ©Markus Brunetti">
-        </div><!-- fin div col-md-6 -->
-    </div><!-- fin div row -->
-    <div class="row">
-        <div class="col-md-6">
-            <img src="http://emg.ovh/codepenImg/Brunetti-3.jpg" class="img-responsive" alt="Köln, St Petrus - ©Markus Brunetti">
-        </div><!-- fin div col-md-6 -->
-        <div class="col-md-6">
-            <img src="http://emg.ovh/codepenImg/Brunetti-4.jpg" class="img-responsive" alt="Angoulème, Saint Pierre - ©Markus Brunetti">
-        </div><!-- fin div col-md-6 -->
-    </div><!-- fin div row -->
-    <div class="row">
-        <div class="col-md-6">
-            <img src="http://emg.ovh/codepenImg/Brunetti-5.jpg" class="img-responsive" alt="Cortegaça, Santa Marinha - ©Markus Brunetti">
-        </div><!-- fin div col-md-6 -->
-        <div class="col-md-6">
-            <img src="http://emg.ovh/codepenImg/Brunetti-5.jpg" class="img-responsive" alt="Cortegaça, Santa Marinha - ©Markus Brunetti">
-        </div><!-- fin div col-md-6 -->
-    </div><!-- fin div row -->
-</div><!-- fin div portfolio -->
-<div class="container content" id="contact">
-    <h2>contact</h2>
-</div><!-- fin div contact -->
-<footer class="container-fluid bg-4 text-center">
-    <p>a project for the <a href="https://codepen.io/freeCodeCamp/pen/YqLyXB"><em>Build a Personal Portfolio Webpage</em></a> <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>'s challenge.</p>
-</footer>
+        </div><!-- fin div jumbotron -->
+        <div class="container content" id="about">
+            <h2>about</h2>
+            <h4>elements to include :</h4>
+                <ol>
+                    <li>I can access all of the portfolio webpage's content just by scrolling.</li>
+                    <li>I can click different buttons that will take me to the portfolio creator's different social media pages.</li>
+                    <li>I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use placeholders.)</li>
+                    <li>I navigate to different sections of the webpage by clicking buttons in the navigation.</li>
+                </ol>
+        </div><!-- fin div about -->
+        <div class="container content" id="portfolio">
+            <h2>portfolio</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="http://emg.ovh/codepenImg/Brunetti-1.jpg" class="img-responsive" alt="Conques, Sainte Foy - ©Markus Brunetti">
+                </div><!-- fin div col-md-6 -->
+                <div class="col-md-6">
+                    <img src="http://emg.ovh/codepenImg/Brunetti-2.jpg" class="img-responsive" alt="Reims, Notre Dame - ©Markus Brunetti">
+                </div><!-- fin div col-md-6 -->
+            </div><!-- fin div row -->
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="http://emg.ovh/codepenImg/Brunetti-3.jpg" class="img-responsive" alt="Köln, St Petrus - ©Markus Brunetti">
+                </div><!-- fin div col-md-6 -->
+                <div class="col-md-6">
+                    <img src="http://emg.ovh/codepenImg/Brunetti-4.jpg" class="img-responsive" alt="Angoulème, Saint Pierre - ©Markus Brunetti">
+                </div><!-- fin div col-md-6 -->
+            </div><!-- fin div row -->
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="http://emg.ovh/codepenImg/Brunetti-5.jpg" class="img-responsive" alt="Cortegaça, Santa Marinha - ©Markus Brunetti">
+                </div><!-- fin div col-md-6 -->
+                <div class="col-md-6">
+                    <img src="http://emg.ovh/codepenImg/Brunetti-5.jpg" class="img-responsive" alt="Cortegaça, Santa Marinha - ©Markus Brunetti">
+                </div><!-- fin div col-md-6 -->
+            </div><!-- fin div row -->
+        </div><!-- fin div portfolio -->
+        <div class="container content" id="contact">
+            <h2>contact</h2>
+            <p>without any familiarity with these services, the icons below returns to the head of this page.</p>
+            <div class="social-media">
+                <a class="button social" href="#header">
+                    <i class="fa fa-facebook-square"></i></a>
+                <a class="button social" href="#header">
+                    <i class="fa fa-linkedin-square"></i></a>
+                <a class="button social" href="#header">
+                    <i class="fa fa-github-square"></i></a>
+                <a class="button social" href="#header">
+                    <i class="fa fa-twitter-square"></i></a>
+                <a class="button social" href="#header">
+                    <i class="fa fa-flickr-square"></i></a>
+            </div><!-- fin div social-media -->
+        </div><!-- fin div contact -->
+        <footer class="container-fluid bg-4 text-center">
+            <p>a project for the <a href="https://codepen.io/freeCodeCamp/pen/YqLyXB"><em>Build a Personal Portfolio Webpage</em></a> <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>'s challenge.</p>
+        </footer>
+    </body>
+</html>
