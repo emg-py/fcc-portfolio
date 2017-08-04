@@ -1,0 +1,13 @@
+.anchor {
+    margin-top: -40px;
+    padding-top: 40px;
+}
+#header {
+    background-color: rgb(200,200,200);
+}
+#about {
+    background-color: rgb(100,100,100);
+}
+.content {
+    padding-top: 40px;
+}
