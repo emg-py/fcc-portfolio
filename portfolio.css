@@ -1,6 +1,6 @@
 
 .content {
-    padding-top: 40px;
+    padding-top: 80px;
 }
   
 .navbar {
@@ -22,25 +22,41 @@
 }
                       
 #header-title {
-    font-family: "brim-narrow", sans-serif;
+    font-family: "brim-narrow", serif;
     font-weight: 200;
 }
 #header-s {
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
-                            
+#header-p {
+    font-family: "brim-narrow", serif !important;
+    font-weight: 400 !important;
+    font-size: 1em !important;
+}
+#header img {
+    height: 32px;
+    width: 32px;
+}
+
+
 h2 {
     font-family: "brim-narrow", sans-serif  !important;
     font-weight: 400    !important;
 }
-                                
+/* test                                 
 #about {
-    background-color: rgb(100,100,100);
-}
+    background-color: rgb(100,100,100); 
+    padding-bottom: 80px;
+}*/
                                   
 #portfolio {
-    display: flex;
+    display: block;
+    position: relative;
+    margin: 0 auto;
 }
+/*.thumbnail {
+    margin: 20px;
+}*/
                                     
 .social {
     color: gray;
